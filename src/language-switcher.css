@@ -1,0 +1,52 @@
+div.language-switcher {
+    position: absolute;
+    bottom: 3vh;
+    right: 3vh;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+    background: lightgray;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.language-switcher * {
+    transition: 0.4s;
+}
+
+div.language-switcher div.labels {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+    padding-bottom: 2.5%;
+}
+
+div.language-switcher div.circle {
+    width: 50%;
+    height: 100%;
+    border-radius: 100%;
+    outline: 1px solid darkgrey;
+    position: absolute;
+    background-color: white;
+    left: 0;
+}
+
+div.language-switcher div.circle-second-position {
+    background-color: white;
+    left: 50%;
+}
+
+
+div.language-switcher div.chosen {
+    color: transparent;
+}
+
+div.language-switcher:hover {
+    background: #cccccc;
+    border-color: #cccccc;
+}
